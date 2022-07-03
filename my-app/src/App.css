@@ -1,0 +1,187 @@
+.heading {
+  color: #5cb85c;
+}
+
+.search {
+  margin-right: 10px;
+}
+
+input {
+  padding: 0.2rem;
+  width: 62%;
+}
+
+input[name="name"] {
+  margin-left: 2.4rem;
+  margin-top: 1rem;
+  padding: 0.2rem;
+}
+
+button {
+  background-color: #e1e1e1;
+  border: 1px solid black;
+}
+
+table {
+  margin-top: 1rem;
+}
+
+thead {
+  background-color: #009100;
+  color: #e1e1e1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+td{
+  font-size: 12px;
+  border: 2px solid grey;
+}
+
+input[name="desc"] {
+  margin-top: 1rem;
+  padding: 0.2rem;
+}
+
+input[name="webR"] {
+  margin-left: 1.2rem;
+  padding: 0.2rem;
+  margin-top: 1rem;
+}
+
+input[name="id"] {
+  margin-left: 1rem;
+  padding: 0.2rem;
+}
+
+.add-btn {
+  float: right;
+  padding: 0.5rem;
+  width: 6rem;
+  margin-top: 2rem;
+}
+
+.dlt-btn {
+  float: right;
+  margin-right: 2rem;
+}
+
+.add-info {
+  padding-right: 8rem;
+  text-align: left;
+  border-left: 2px solid #e1e1e1;
+  padding-left: 1rem;
+}
+
+.App-header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+}
+
+li.react-tabs__tab {
+  background: #5cb85c;
+  border: #009100 2px solid;
+  color: white;
+  border-radius: 5px 5px 0 0;
+  font-size: 12px;
+  border-bottom: 0px;
+}
+
+.react-tabs__tab-list {
+  border-bottom: #009100 2px solid !important;
+}
+
+.react-tabs__tab-list {
+  text-align: center;
+}
+
+li.react-tabs__tab--selected {
+  color: #5cb85c;
+  background: white;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.table-data {
+  padding-left: 3rem;
+  flex-grow: 2;
+}
+
+.modal {
+  z-index: 100;
+  background-color: #f5f5f4;
+  position: relative;
+  margin: 1.75rem auto;
+  border-radius: 3px;
+  max-width: 1050px;
+  /* padding: 2rem; */
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #009100;
+  margin-bottom: 1rem;
+}
+
+.modal-header span {
+  padding: 1rem;
+  color: white;
+}
+
+.modal-close-button {
+  background-color: #009100;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  cursor: pointer;
+  border: none;
+}
+
+button {
+  font-size: 0.9rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  padding: 0.3rem 1rem;
+  margin-left: 0.5rem;
+}
+
+.btn {
+  background: #247ba0;
+  color: #fff;
+}
