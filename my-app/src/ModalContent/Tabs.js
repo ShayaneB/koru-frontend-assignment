@@ -41,6 +41,7 @@ function TableTabs() {
         WebReference: addData.webR,
       })
       .then(() => {
+        alert("Data Added Successfully!")
         setAddData(initialData);
         setAddedData(true);
       });
