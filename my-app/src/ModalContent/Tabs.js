@@ -16,7 +16,7 @@ function TableTabs() {
   const [data, setData] = useState([]);
   const [addData, setAddData] = useState(initialData);
   const [addedData, setAddedData] = useState(false);
-  const [selectedValue, setSelectedValue] = useState();
+  const [selectedValue, setSelectedValue] = useState({});
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -48,7 +48,7 @@ function TableTabs() {
   };
 
   const handleSelectionChange = (e) => {
-    setSelectedValue(e.target.value[0]);
+    setSelectedValue(e.target.value.split(",")[0]);
   };
 
   function handleDelete() {
@@ -96,7 +96,7 @@ function TableTabs() {
                   data.map((item, i) => (
                     <tr key={i}>
                       <input
-                        value={Object.values(item).map((val) => val)}
+                        value={Object.values(item)}
                         type="checkbox"
                         onChange={handleSelectionChange}
                       />
